@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #ddd;
+}
+.formWrapper {
+	width: 100%;
+	max-width: 380px;
+	margin: auto;
+	margin-top: 10%;
+	padding: 60px 40px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 1px 4px 25px rgba(0, 0, 0, 0.55);
+}
+.formWrapper .box {
+	height: 35px;
+	width: 100%;
+	display: flex;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+.formWrapper .box input {
+	width: 100%;
+	height: 100%;
+	border: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.formWrapper .box button {
+	cursor: pointer;
+	background-color: #363636;
+	color: #fff;
+	border: none;
+	padding: 5px 8px;
+	text-align: center;
+	font-size: 10px;
+}
+.g-btn {
+	width: 100%;
+	padding: 5px;
+	background-color: #363636;
+	border: none;
+	color: #fff;
+	margin-top: 10px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+#copied {
+	margin-bottom: 10px;
+	color: green;
+	padding: 5px;
+	border-radius: 2px;
+}
